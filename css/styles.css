@@ -1,0 +1,54 @@
+th, td {
+    border:transparent;
+    padding: 0px;
+    border-radius: 50px;
+}
+td{
+    text-align: center;
+    width: 420px;    
+    
+}
+th {
+    background-color: transparent;
+}
+tr:nth-child(even) {
+    background-color: transparent;
+}
+
+h1{
+    color:#fff;
+}
+.card {
+    width: 18rem;
+    padding: 0px;
+    display: inline-block; 
+    text-align: left;
+    
+}
+table {
+    border-collapse: collapse;
+    border: none;
+}
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 700% 700%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;}}
+
+
